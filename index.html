@@ -25,11 +25,56 @@ crossorigin="anonymous"></script>
         max-width: 100%;
         border-radius: 50%;
     }
+    .corPrimaria {
+      background-color: #18bc9c;
+    }
+    .corSegundaria {
+      background-color: #2c3e50;
+    }
+    p {
+      font-family:Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+      color: black; !important;
+    }
+    .icones {
+      padding-left: 5px;
+    }
+
+    .tituLosBrancos {
+      text-decoration: underline;
+      text-underline-position: below;
+      padding-bottom: 20px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: white;
+    }
+
+    .tituLosVerdes {
+      text-decoration: underline;
+      text-underline-position: below;
+      padding-bottom: 20px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #18bc9c;
+    }
+
+    .textoBranco {
+      color: white !important;
+    }
+    .jumbotron {
+      margin-bottom: 0px;
+    }
+
+    .textoFooter  {
+      margin: 0px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    
 </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Antônio Brito</a>
+    <nav class="corSegundaria navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand textoBranco" href="#">Antônio Brito</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" 
         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
         aria-expanded="false" aria-label="Toggle navigation">
@@ -42,37 +87,40 @@ crossorigin="anonymous"></script>
           </ul>
           <ul class=navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="#">Projetos</a>
+                <a class="nav-link textoBranco" href="#">Projetos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Sobre mim</a>
+                <a class="nav-link textoBranco" href="#">Sobre mim</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Depoimentos</a>
+                <a class="nav-link textoBranco" href="#">Depoimentos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contatos</a>
+                <a class="nav-link textoBranco" href="#">Contatos</a>
               </li>
           </ul>
         </div>
       </nav>
-      <section class="jumbotron text-center">
+      <section class="jumbotron text-center corPrimaria">
         <div class="container">
            <img class="foto-peril" src="./assets/images/Brito Image 2023-02-11 at 10.49.10.jpeg" 
            alt="Brito"> 
           <h1 class="jumbotron-heading">Antônio Brito</h1>
-          <p class="lead text-mud">Estudando informática básica</p>
+          <p class="lead textoBranco">Estudando informática básica</p>
           <p>
             <a href="#" class="btn btn-dark my-2">Contatos</a>
           </p>
-          <a href="https://www.linkedin.com/in/ant%C3%B4nio-brito-687799256/"> <i class="fab fa-linkedin"></i></a>
-          <a href="https://github.com/antonio9905"><i class="fab fa-github"></i></a>
-          <a href="https://www.instagram.com/antoniooliveira9237/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/ant%C3%B4nio-brito-687799256/"> <i 
+            class="textoBranco fab fa-linkedin"></i></a>
+          <a href="https://github.com/antonio9905"><i 
+            class="textoBranco icones fab fa-github"></i></a>
+          <a href="https://www.instagram.com/antoniooliveira9237/"><i 
+            class="textoBranco icones fab fa-instagram"></i></a>
         </div>
       </section>
       <div class="album py-5 bg-light">
         <div class="container">
-
+          <h2 class="jumbotron-heading text-center tituLosVerdes">Projetos</h2>
           <div class="row">
             <div class="col-md-6">
               <div class="card mb-4 box-shadow">
@@ -145,9 +193,9 @@ crossorigin="anonymous"></script>
       </div>
       
       <!-- Sobre Mim -->
-      <section class="jumbotron text-center">
+      <section class="jumbotron text-center corPrimaria">
         <div class="container">
-             <h2 class="jumbotron-heading">Sobre Mim</h2>
+             <h2 class="jumbotron-heading tituLosBrancos">Sobre Mim</h2>
              <p class="lead">Olá, meu nome é Antonio, 
               uso cadeira de rodas desde de 2006, volúntario da ADET.
               Associação dos deficientes de Tabira-PE.</p>
@@ -155,9 +203,9 @@ crossorigin="anonymous"></script>
       </section>
 
       <!-- Depoimentos -->
-      <section class="jumbotron text-center">
+      <section class="jumbotron text-center corPrimaria">
           <div class="container">
-            <h2 class="jumbotron-heading text-center">
+            <h2 class="jumbotron-heading text-center tituLosVerdes">
                 Depoimentos
             </h2>
             <blockquote class="blockquote text-center">
@@ -171,18 +219,18 @@ crossorigin="anonymous"></script>
       </section>
 
       <!-- Contato -->
-      <section>
+      <section class='corPrimaria'>
         <div>
            <div class="container-fluid">
-            <h3 class="text-center">Disponivel para oportunidades</h3>
+            <h3 class="text-center tituLosBrancos">Disponivel para oportunidades</h3>
             <h4 class="text-center">brtoliveira2015@gmail.com</h4>
            </div>
          </div>
       </section>
 
       <!-- Footer -->
-      <footer class="text-center">
-        <p>Copyright 2023 Dev Aprender</p>
+      <footer class="text-center corSegundaria">
+        <p> class="textoBranco" Copyright 2023 Dev Aprender</p>
       </footer>
 </body>
 </html>
