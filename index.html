@@ -69,7 +69,9 @@ crossorigin="anonymous"></script>
       padding-top: 15px;
       padding-bottom: 15px;
     }
-
+    html {
+      scroll-behavior: smooth0;
+    }
 </style>
 </head>
 <body>
@@ -87,16 +89,16 @@ crossorigin="anonymous"></script>
           </ul>
           <ul class=navbar-nav">
             <li class="nav-item">
-                <a class="nav-link textoBranco" href="#">Projetos</a>
+                <a class="nav-link textoBranco" href="#projetos">Projetos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link textoBranco" href="#">Sobre mim</a>
+                <a class="nav-link textoBranco" href="#sobre-mim">Sobre mim</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link textoBranco" href="#">Depoimentos</a>
+                <a class="nav-link textoBranco" href="#depoimentos">Depoimentos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link textoBranco" href="#">Contatos</a>
+                <a class="nav-link textoBranco" href="#contato">Contato</a>
               </li>
           </ul>
         </div>
@@ -108,7 +110,7 @@ crossorigin="anonymous"></script>
           <h1 class="jumbotron-heading">Antônio Brito</h1>
           <p class="lead textoBranco">Estudando informática básica</p>
           <p>
-            <a href="#" class="btn btn-dark my-2">Contatos</a>
+            <a href="#contato" class="btn btn-dark my-2">Contato</a>
           </p>
           <a href="https://www.linkedin.com/in/ant%C3%B4nio-brito-687799256/"> <i 
             class="textoBranco fab fa-linkedin"></i></a>
@@ -118,7 +120,7 @@ crossorigin="anonymous"></script>
             class="textoBranco icones fab fa-instagram"></i></a>
         </div>
       </section>
-      <div class="album py-5 bg-light">
+      <div class="album py-5 bg-light" id="projetos">
         <div class="container">
           <h2 class="jumbotron-heading text-center tituLosVerdes">Projetos</h2>
           <div class="row">
@@ -193,7 +195,7 @@ crossorigin="anonymous"></script>
       </div>
       
       <!-- Sobre Mim -->
-      <section class="jumbotron text-center corPrimaria">
+      <section class="jumbotron text-center corPrimaria" id="sobre-mim">
         <div class="container">
              <h2 class="jumbotron-heading tituLosBrancos">Sobre Mim</h2>
              <p class="lead">Olá, meu nome é Antonio, 
@@ -203,7 +205,8 @@ crossorigin="anonymous"></script>
       </section>
 
       <!-- Depoimentos -->
-      <section class="jumbotron text-center corPrimaria">
+      <section class="jumbotron text-center" 
+      style="background-color: white !important;" id="depoimentos">
           <div class="container">
             <h2 class="jumbotron-heading text-center tituLosVerdes">
                 Depoimentos
@@ -219,12 +222,16 @@ crossorigin="anonymous"></script>
       </section>
 
       <!-- Contato -->
-      <section class='corPrimaria'>
+      <section class="corPrimaria" id="contato">
         <div>
            <div class="container-fluid">
-            <h3 class="text-center tituLosBrancos">Disponivel para oportunidades</h3>
-            <h4 class="text-center">brtoliveira2015@gmail.com</h4>
-           </div>
+            <h3 style="padding-top: 60px;" class="text-center tituLosBrancos">
+            Disponivel para oportunidades</h3>
+          <a href="brito:brtoliveira2015@gmail.com"><h4 
+            style="padding-bottom: 60px;
+            margin-botton: 0px"
+            class="text-center">👉brtoliveira2015@gmail.com👈</h4></a>
+          </div>
          </div>
       </section>
 
